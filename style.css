@@ -1,0 +1,139 @@
+/*
+ * The Galaxy Blasters look for the high-score board. Ready to use: you don't need to change this file.
+ * It styles plain HTML elements (no classes), so the page looks right as soon as your lists and table are in place.
+ */
+
+:root {
+    --space: #0b0c2a;
+    --panel: #16183f;
+    --line: #2c2f6b;
+    --neon: #39f3ff;
+    --pink: #ff4fd8;
+    --gold: #ffd84f;
+    --text: #e9ecff;
+    --quiet: #a9aee0;
+}
+
+body {
+    margin: 0;
+    background: var(--space);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+}
+
+header,
+main,
+footer {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
+h1 {
+    margin-bottom: 0.25rem;
+    color: var(--neon);
+    font-family: "Courier New", monospace;
+    font-size: clamp(1.6rem, 5vw, 2.6rem);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px var(--neon);
+}
+
+h2 {
+    margin-top: 0;
+    color: var(--pink);
+    font-family: "Courier New", monospace;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+/* The countdown: big monospace numbers, with the winner at the bottom in gold. */
+ol {
+    font-family: "Courier New", monospace;
+    font-size: 1.15rem;
+}
+
+ol li {
+    padding: 0.2rem 0;
+}
+
+ol li::marker {
+    color: var(--neon);
+    font-weight: bold;
+}
+
+ol li:last-child {
+    color: var(--gold);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-shadow: 0 0 8px var(--gold);
+}
+
+/* The scores table. */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+}
+
+caption {
+    padding-bottom: 0.5rem;
+    color: var(--quiet);
+    font-style: italic;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    text-align: right;
+    white-space: nowrap;
+}
+
+thead th {
+    color: var(--gold);
+    border-bottom: 2px solid var(--gold);
+}
+
+th[scope="row"] {
+    color: var(--neon);
+    text-align: left;
+}
+
+tbody tr:hover {
+    background: rgba(57, 243, 255, 0.08);
+}
+
+tfoot th,
+tfoot td {
+    font-weight: bold;
+    border-top: 2px solid var(--neon);
+    border-bottom: none;
+}
+
+/* The power-ups. */
+dt {
+    margin-top: 0.75rem;
+    color: var(--neon);
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1.5rem;
+}
+
+footer {
+    color: var(--quiet);
+    font-size: 0.9rem;
+}

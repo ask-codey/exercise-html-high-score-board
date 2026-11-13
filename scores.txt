@@ -1,0 +1,48 @@
+GALAXY BLASTERS ARCADE: THIS WEEK'S SCORES
+==========================================
+Everything you need to mark up in index.html. Copy the words and numbers as they are.
+
+
+1. THE TOP 10
+-------------
+The board shows a countdown: it starts with 10th place and ends with the winner.
+Here are the places from 1st to 10th, with each player's score:
+
+ 1st  PIXELPAM   98,450
+ 2nd  STARFOX99  91,200
+ 3rd  NOVAKID    87,925
+ 4th  COMETCAT   82,310
+ 5th  LASERLOU   78,640
+ 6th  ORBITOZ    74,105
+ 7th  ROCKETROO  69,880
+ 8th  ZAPZOE     65,415
+ 9th  MOONPIE    61,050
+10th  BLIPBOB    57,300
+
+
+2. SCORES BY LEVEL (the top five)
+---------------------------------
+Caption: Level scores for this week's top five
+
+Player       Level 1   Level 2   Level 3   Total
+PIXELPAM     31,200    33,750    33,500    98,450
+STARFOX99    30,400    29,900    30,900    91,200
+NOVAKID      28,150    30,275    29,500    87,925
+COMETCAT     27,800    26,610    27,900    82,310
+LASERLOU     26,300    25,840    26,500    78,640
+
+The totals row, at the bottom:
+All five     143,850   146,375   148,300   438,525
+
+
+3. POWER-UPS
+------------
+Each power-up, then what it does. Mega Bomb has two descriptions.
+
+Shield Bubble   Blocks the next three hits.
+Twin Lasers     Fires two shots at once for 20 seconds.
+Warp Drive      Jumps your ship ahead to the next wave.
+Extra Life      Adds one ship to your reserve.
+Time Freeze     Stops every enemy for five seconds.
+Mega Bomb       Clears every enemy on the screen.
+                You can carry only one at a time.
